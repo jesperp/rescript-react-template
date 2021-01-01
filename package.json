@@ -1,0 +1,26 @@
+{
+  "name": "rescript-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "dev": "snowpack dev",
+    "rescript:clean": "bsb -clean",
+    "rescript:watch": "bsb -make-world -w",
+    "start": "run-p dev rescript:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "npm-run-all": "^4.1.5",
+    "snowpack": "^2.18.5"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reason-react": "^0.9.1"
+  }
+}
